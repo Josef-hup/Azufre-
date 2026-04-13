@@ -1,0 +1,99 @@
+h2
+{
+    color:black;
+    background-color: #efa2a2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-bottom: dashed 1px black;
+    border-top: dashed 1px black;
+    text-align: center;
+    width: 100%;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th
+{
+    text-align: center;
+    background-color: #722424;
+    color:white;
+}
+
+.iconoCompra
+{
+    width: 50px;
+    height: 50px;
+    border:1px solid black;
+    border-radius: 20px;
+    padding:15px;
+    background-color: #5b92b7;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.iconoCompra:hover
+{
+    opacity: 1;
+    box-shadow: 1px 1px 25px 10px #888888;
+}
+
+tfoot tr, tfoot td
+{
+    border:0px solid black;
+    color:grey;
+    font-style: italic;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: #c7f4c3;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: #2e4c2b;
+    color:white;
+}
+
+video, iframe
+{
+    width: 300px;
+    height: 300px;
+}
+
+main
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table
+{
+    width: 80%;
+}
+
+.imagenTabla{
+    width: 100px;
+}
+.botonGestion{
+    background-color: #722424;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
